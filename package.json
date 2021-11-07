@@ -1,0 +1,24 @@
+{
+  "name": "github-fork-collector",
+  "version": "1.0.0",
+  "description": "collect data from forks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FH-Potsdam/github-fork-collector.git"
+  },
+  "author": "sebastian-meier",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FH-Potsdam/github-fork-collector/issues"
+  },
+  "homepage": "https://github.com/FH-Potsdam/github-fork-collector#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "dotenv": "^10.0.0",
+    "ncp": "^2.0.0"
+  }
+}
