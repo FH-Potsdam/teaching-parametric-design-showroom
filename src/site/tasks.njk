@@ -1,3 +1,10 @@
+---
+pagination:
+    data: tasks
+    size: 1
+    alias: task
+permalink: "tasks/{{ task.id | slug }}/"
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body, html {margin:0; padding:0; border: none;}
-      body {
+      ul, li {
+        list-style:none;
+        margin:0;
+        padding:0;
+      }
+      ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -22,6 +34,14 @@
     </style>
   </head>
   <body>
-    $$$$PLACEHOLDER$$$$
+    <h1>{{task.title}}</h1>
+    <ul>
+    {%- for script in task.scripts %}
+      <li>
+        <iframe frameBorder="0" src="/sketches/{{script.id}}/index.html"></iframe>
+        <a href="{{script.url}}">{{script.username}}</a>
+      </li>
+    {%- endfor %}
+    </ul>
   </body>
 </html>

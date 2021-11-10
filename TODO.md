@@ -1,0 +1,12 @@
+# TODOs
+- Use unique ids for script files
+- Two types of users: anonymous or name ref \[default\] (or not included)
+- only update a specific group
+- command to update everything
+- keep old things, that cannot be updated (repo removed)
+- if repo removed, no link to repo, name only
+- design pages
+- filter for semester
+- menu for tasks
+- about page
+- cleanup scripts folder and remove unreferenced files

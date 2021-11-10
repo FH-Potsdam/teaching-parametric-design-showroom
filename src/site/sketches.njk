@@ -1,0 +1,22 @@
+---
+pagination:
+    data: sketches
+    size: 1
+    alias: sketch
+permalink: "sketches/{{ sketch.id | slug }}/"
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch</title>
+    <style>body, html {margin:0; padding:0; border: none; width: 400px; height: 400px; overflow:hidden;}</style>
+    <link rel="stylesheet" type="text/css" href="/assets/p5.css">
+  </head>
+  <body>
+    <script src="/assets/p5.min.js"></script>
+    <script src="/assets/libraries/p5.svg.js"></script>
+    <script src="/scripts/{{sketch.id}}.js"></script>
+  </body>
+</html>

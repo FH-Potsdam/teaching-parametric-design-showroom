@@ -1,0 +1,29 @@
+[
+  {
+    "id": "task01",
+    "title": "Task #01",
+    "description": "",
+    "folder": "code/task-01",
+    "files": ["sketch.js"]
+  },
+  {
+    "id": "task02-1",
+    "title": "Task #02.1",
+    "description": "",
+    "folder": "code/task-02",
+    "files": [
+      "sketch.js",
+      "sketch.jpg",
+      "sketch.jpeg"
+    ]
+  },
+  {
+    "id": "task02-2",
+    "title": "Task #02.2",
+    "description": "",
+    "folder": "code/task-02.1",
+    "files": [
+      "sketch.js"
+    ]
+  }
+]

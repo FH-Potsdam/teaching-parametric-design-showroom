@@ -1,0 +1,12 @@
+[
+  {
+    "key": "wise21",
+    "term": "WiSe",
+    "start": "2021-10-01",
+    "time": "21/22",
+    "users": [
+      "username1",
+      {"name": "username2", "anonymous": true}
+    ]
+  }
+]
