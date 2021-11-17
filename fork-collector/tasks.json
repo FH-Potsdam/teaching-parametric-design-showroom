@@ -25,5 +25,14 @@
     "files": [
       "sketch.js"
     ]
+  },
+  {
+    "id": "task03",
+    "title": "Task #03",
+    "description": "",
+    "folder": "code/task-03",
+    "files": [
+      "sketch.js"
+    ]
   }
 ]
